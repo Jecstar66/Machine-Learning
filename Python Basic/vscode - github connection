@@ -11,5 +11,17 @@ Step 4. 작업 폴더 생성 및 test.py 생성
 Step 5. 패키지 설치 
 - pip / pip3 install [package명]
 
-<HamoniKR OS 기준>
-google colab으로 진행.
+<GitHub 연동>
+- F1 -> Git:Clone
+- https://github.com/Jecstar66/Machine_Learning.git 입력
+- Machine_Learning 폴더 선택
+하면 GitHub의 repo 구조가 vscode로 copy 됨
+작업 다하면...
+- terminal에서 Machine_Learning 폴더로 directory 변경
+- git init
+- git remote add origin https://github.com/Jecstar66/Machine_Learning.git
+- git add .
+- git commit -m "메세지"
+- git branch : 만약 branch가 master라면 git branch -m master main
+- git pull origin main --allow-unrelated-histories
+- git push -u origin main
