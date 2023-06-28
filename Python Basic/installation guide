@@ -1,0 +1,15 @@
+<Window OS 기준>
+Step 1. python 3.X 설치
+- Add Python 3.X to PATH 체크
+- Customize installation 선택
+- Advanced Option : Add Python to environment variable 체크, 설치 경로를 쉬운 경로로 지정
+Step 2. vscode 설치 
+Step 3. vscode python extension 설치
+Step 4. 작업 폴더 생성 및 test.py 생성
+- (recommended) Linter pylint is not installed. : 정적분석 도구(디버깅을 하지 않고 오류 분석) 설치하기 
+- run 후 launch.json file 생성 : debug configuration 을 Python File로
+Step 5. 패키지 설치 
+- pip / pip3 install [package명]
+
+<HamoniKR OS 기준>
+google colab으로 진행.
