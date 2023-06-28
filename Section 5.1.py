@@ -4,6 +4,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import matplotlib.font_manager
 
+## git commit practice ##
 ## Section 5.1 ##
 Chapter = 5
 Section = 1 
